@@ -6,7 +6,7 @@ For the best experience, please allow in your browser playing music from this we
 
 ## Additional License(s)
 
-Source code (of tleset implementation) is released under the Mozilla Public License 2.0. See `LICENSE` for details. For the comparison it can be seen here (https://mozdevs.github.io/gamedev-js-tiles).
+Source code (of tleset implementation) is released under the Mozilla Public License 2.0. See `LICENSE` for details. For the comparison the original implementation can be seen here (https://mozdevs.github.io/gamedev-js-tiles).
 
 Background music is available for free use @ www.FesilyanStudios.com.
 

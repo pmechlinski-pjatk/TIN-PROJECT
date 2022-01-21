@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+      <title>Garden Game Demo v1.0</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="../styles.css" type="text/css">
+      <script src="garden.js"></script>
+  </head>
+
+  <body>
+
+    <audio autoplay src="../audio/music.mp3">
+    Your browser does not support the audio element.
+    </audio>
+
+    <div class="mainwrapper">
+      <div class="header">
+        <h1>Garden Game</h1>
+        <h3>by: Paweł Mechliński</h3>
+      </div>
+
+      <div class="upperblock">
+
+        <div class="canvdiv">
+          <canvas id="demo" width="256" height="256"></canvas>
+        </div>
+        
+        <div class="sidemenu">
+          <div class="textwrapper">
+            <b>How to Play</b>
+            <br><br>
+            In this game at start you get some money and randomly generated area of land.
+            Use your tools and imagination to make it the most interesting!
+            You can plant various flowers and after some time sell it.
+            For the profit you gain you can buy more decorations for your garden.
+            Try to get as many points as you can!
+            The game has a soundtrack - you can listen it after allowing audio
+            from this website in your browser. <br><br>
+            <b>Description:</b>
+            <span id="description"></span>
+            <br>
+           <b>Score:</b>  <span id="score"></span>
+            <br>
+            <b>Money:</b>  <span id="money"></span> $</div>
+        </div>
+
+      </div>
+
+      <div class="invmenu">
+        <b>Inventory</br>
+
+        <div>
+         <input type="radio" id="select" name="tool" value="select" checked>
+         <label for="">🔎 Select</label>
+        </div>
+
+        <div>
+         <input type="radio" id="shovel" name="tool" value="shovel">
+         <label for="">🕳 Shove️l</label>
+        </div>
+
+        <div>
+         <input type="radio" id="seedbag" name="tool" value="seedbag">
+         <label for="">🌱 Seedbag (2$)</label>
+        </div>
+
+        <div>
+         <input type="radio" id="wateringcan" name="tool" value="wateringcan">
+         <label for="">💧 Watering Can</label>
+        </div>
+
+        <div>
+         <input type="radio" id="sell" name="tool" value="sell">
+         <label for="">💰 Sell</label>
+        </div>
+
+        <div>
+         <input type="radio" id="gnome" name="tool" value="gnome">
+         <label for="">🎅 Buy Gnome (10$)</label>
+        </div>
+
+        <div>
+         <input type="radio" id="flamingo" name="tool" value="flamingo">
+         <label for="">🦩 Buy Flamingo (25$)</label>
+        </div>
+
+        <div>
+         <input type="radio" id="statue" name="tool" value="statue">
+         <label for="">🗿 Buy Ancient Statue (100$)</label>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

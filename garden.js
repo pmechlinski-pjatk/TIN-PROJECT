@@ -387,8 +387,8 @@ for (var i = 0; i < map.cols * map.rows; i++) { // Random map generator
 
 Game.load = function () { // Image loader.
     return [
-        Loader.loadImage('tiles', '../assets/tiles.png'),
-        Loader.loadImage('selector', '../assets/selector.png')
+        Loader.loadImage('tiles', '/assets/tiles.png'),
+        Loader.loadImage('selector', '/assets/selector.png')
     ];
 };
 
